@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Baseball Score Keeper</string>
+
+    <!--"Away" label that goes above the Away Team's score-->
+    <string name="away_team">Away</string>
+
+    <!--"Home" label that goes above the Home Team's score-->
+    <string name="home_team">Home</string>
+
+    <!--Inning counter label; it is initialized at first inning-->
+    <string name="inning">Inning: 1</string>
+
+    <!--"Outs" label-->
+    <string name="outs">Outs</string>
+
+    <!--"Strikes" label-->
+    <string name="strikes">Strikes</string>
+
+    <!--"Balls" label-->
+    <string name="balls">Balls</string>
+
+    <!--"Clear" label for buttons that clear individual counters-->
+    <string name="clear">Clear</string>
+
+    <!--"Reset All" label for button that resets all counters to initial positions-->
+    <string name="reset_all">Reset All</string>
+
+    <!--Initial text string of 0 for all counters except Inning-->
+    <string name="zero">0</string>
+
+    <!--"+1" text for all buttons that add one to a category total-->
+    <string name="plus_one">+1</string>
+
+    <!--"-1" text for all buttons that subtract one from a category total-->
+    <string name="minus_one">-1</string>
+
+</resources>

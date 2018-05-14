@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+
+        <!-- Primary theme color of the app (sets background color of app bar) -->
+        <item name="colorPrimary">#76FF03</item>
+
+        <!-- Background color of buttons in the app -->
+        <item name="colorButtonNormal">#1B5E20</item>
+
+        <!--uses style below to create text color for the buttons; found how to do this from
+        various stackoverflow users at
+        https://stackoverflow.com/questions/29860906/widget-appcompat-button-colorbuttonnormal
+        -shows-gray -->
+        <item name="android:buttonStyle">@style/ButtonColor</item>
+
+    </style>
+
+    <!--creates style ButtonColor for text-->
+    <style name="ButtonColor" parent="@style/Widget.AppCompat.Button">
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+</resources>
